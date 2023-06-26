@@ -24,7 +24,7 @@ ANTISPAM = int(os.getenv('ANTISPAM', CONFIG['antispam']))
 
 # Initialize bot and dispatcher
 storage = MemoryStorage()
-bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML)
+bot = Bot(token=6081377835:AAHu4iYGC71zufwhWL8ByLoXteNmr2ShqSY, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot, storage=storage)
 
 # Configure logging
